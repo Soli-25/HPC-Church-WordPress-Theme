@@ -156,39 +156,271 @@
     </div>
 </section>
 
-<!-- Next Steps Section -->
-<section id="nextsteps" class="container">
+<!-- Discover HPC Church Section -->
+<section id="nextsteps" class="container" style="text-align: center;">
+    <p class="section-badge" style="font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase; color: #000; font-weight: 600; margin-bottom: 20px;">Inscrições Abertas para Dezembro 2025</p>
     <h2 class="section-title">Descubra a HPC Church</h2>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 20px;">
+        Seja você novo na HPC Church ou querendo aprender mais sobre nossa Visão e Valores Fundamentais, 
+        queremos colocá-lo no caminho rápido para descobrir seus próximos passos em direção a viver a vida 
+        ao máximo—tanto em se conectar na HPC Church quanto em se tornar a pessoa que Deus o chamou para ser.
+    </p>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 30px;">
+        Descubra a HPC Church ajuda você a aprender um pouco mais sobre si mesmo, onde você pertence na HPC Church, 
+        e acreditamos que você descobrirá verdadeiramente como estar plenamente conectado, conhecido e amado.
+    </p>
+    <div class="date-info" style="font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase; color: #000; font-weight: 600; margin: 35px 0; padding: 20px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
+        20 de Novembro, 2025 às 18:00
+    </div>
+    <button class="elegant-btn" onclick="openModal('connectModal')">Inscreva-se Agora</button>
+</section>
+
+<div class="divider" style="max-width: 800px; margin: 100px auto; height: 1px; background: linear-gradient(to right, transparent, #ddd, transparent);"></div>
+
+<!-- Discover Dream Team Section -->
+<section class="container" style="text-align: center;">
+    <h2 class="section-title">Descubra o Dream Team</h2>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 30px;">
+        Seja você novo na HPC Church ou apenas se sentindo estagnado em sua fé, queremos colocá-lo no 
+        caminho rápido para descobrir seus próximos passos em direção a viver a vida ao máximo fazendo 
+        a diferença na vida de outras pessoas.
+    </p>
+    <button class="elegant-btn" onclick="openModal('teamModal')">Junte-se ao Time</button>
+</section>
+
+<div class="divider" style="max-width: 800px; margin: 100px auto; height: 1px; background: linear-gradient(to right, transparent, #ddd, transparent);"></div>
+
+<!-- Baptisms Section -->
+<section class="container" style="text-align: center;">
+    <h2 class="section-title">Batismos</h2>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 20px;">
+        <strong>Adoraríamos que você participasse do Batismo!</strong>
+    </p>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 30px;">
+        O Batismo é a expressão externa de nosso compromisso interno de seguir a Cristo e uma celebração 
+        de sua nova vida em Cristo! Se você está interessado em ser batizado, por favor preencha o formulário abaixo.
+    </p>
+</section>
+
+<!-- Verse Section -->
+<div class="verse-section" style="background: #f9f9f9; padding: 80px 40px; margin: 80px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
+    <div class="verse-quote" style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <p class="verse-text" style="font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 300; color: #1a1a1a; font-style: italic; line-height: 1.8; margin-bottom: 30px;">
+            "Pedro respondeu: 'Arrependam-se, e cada um de vocês seja batizado em nome de Jesus Cristo 
+            para perdão dos seus pecados, e receberão o dom do Espírito Santo.'"
+        </p>
+        <p class="verse-reference" style="font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; color: #666; font-weight: 500;">
+            Atos 2:38
+        </p>
+    </div>
+</div>
+
+<section class="container" style="text-align: center; padding-top: 0;">
+    <button class="elegant-btn" onclick="openModal('baptismModal')">Quero Ser Batizado</button>
+</section>
+
+<div class="divider" style="max-width: 800px; margin: 100px auto; height: 1px; background: linear-gradient(to right, transparent, #ddd, transparent);"></div>
+
+<!-- Connection Groups Section -->
+<section class="container" style="text-align: center;">
+    <p class="section-badge" style="font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase; color: #000; font-weight: 600; margin-bottom: 20px;">Inscrições para Grupos de Conexão Abertas</p>
+    <h2 class="section-title">Somos Melhores Juntos</h2>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 20px;">
+        Neste outono, nossos grupos são um lugar para construir amizades, compartilhar a vida e crescer ao lado de outros. 
+        Somos conhecidos, amados e desafiados através de relacionamentos autênticos, e esses grupos são projetados 
+        para ajudá-lo a experimentar isso de uma forma significativa.
+    </p>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 30px;">
+        Desde Grupos de Estudo Bíblico e Grupos de Atividades até Grupos de Serviço e mais, há algo para cada 
+        estágio da vida e interesse. Seja você novo na HPC ou parte de nossa comunidade há anos, 
+        você encontrará um grupo onde pode se conectar, se sentir encorajado e aproveitar o tempo juntos.
+    </p>
+    <a href="<?php echo home_url('/comunidade'); ?>" class="elegant-btn" style="text-decoration: none;">Encontre Seu Grupo</a>
+</section>
+
+<div class="divider" style="max-width: 800px; margin: 100px auto; height: 1px; background: linear-gradient(to right, transparent, #ddd, transparent);"></div>
+
+<!-- Get Connected Section -->
+<section class="container" style="text-align: center;">
+    <h2 class="section-title">Conecte-se Conosco</h2>
+    <p class="card-text" style="max-width: 900px; margin: 0 auto 30px;">
+        Não importa em que estágio da vida você esteja, há um lugar onde você pertence na HPC Church.
+    </p>
+    <button class="elegant-btn" onclick="openModal('connectModal')">Conecte-se Agora</button>
+</section>
+
+<div class="divider" style="max-width: 800px; margin: 100px auto; height: 1px; background: linear-gradient(to right, transparent, #ddd, transparent);"></div>
+
+<!-- SOAP Guide Section -->
+<style>
+    .soap-section {
+        background: #1a1a1a;
+        color: white;
+        padding: 100px 40px;
+        text-align: center;
+        margin: 0;
+    }
     
-    <div class="grid-3">
-        <div class="card">
-            <div class="card-icon">🙏</div>
-            <h3 class="card-title">Primeiro Passo</h3>
-            <p class="card-text">
-                É novo aqui? Queremos conhecer você! Preencha nosso cartão de conexão 
-                e descubra como fazer parte da nossa família.
-            </p>
-            <button class="elegant-btn" onclick="openModal('connectModal')">Inscreva-se Agora</button>
+    .soap-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .soap-title {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 3rem;
+        font-weight: 300;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .soap-subtitle {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+    
+    .soap-text {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        margin-bottom: 30px;
+        opacity: 0.9;
+    }
+    
+    .soap-method {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 2.5rem;
+        letter-spacing: 15px;
+        margin: 40px 0;
+        font-weight: 300;
+    }
+    
+    .soap-btn {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 18px 50px;
+        background: white;
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.3s ease;
+        border: 2px solid white;
+        font-size: 0.85rem;
+    }
+    
+    .soap-btn:hover {
+        background: transparent;
+        color: white;
+    }
+    
+    .cta-section {
+        background: #fafafa;
+        padding: 100px 40px;
+    }
+    
+    .cta-container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    .cta-heading {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 60px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    .cta-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+    }
+    
+    .cta-card {
+        background: white;
+        padding: 50px 40px;
+        text-align: center;
+        border: 1px solid #e0e0e0;
+        transition: all 0.3s;
+    }
+    
+    .cta-card:hover {
+        border-color: #000;
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    
+    .cta-card h3 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    .cta-card p {
+        font-size: 0.95rem;
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 25px;
+    }
+    
+    .cta-link {
+        color: #000;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: all 0.3s;
+    }
+    
+    .cta-link:hover {
+        opacity: 0.7;
+    }
+</style>
+
+<section class="soap-section">
+    <div class="soap-content">
+        <h2 class="soap-title">Leia a Bíblia Conosco</h2>
+        <h3 class="soap-subtitle">Guia SOAP</h3>
+        <p class="soap-text">
+            Acreditamos que ler a Bíblia é crucial para nossa fé, e nosso método favorito de estudo bíblico é chamado SOAP!
+        </p>
+        <div class="soap-method">
+            E · O · A · O
         </div>
-        
-        <div class="card">
-            <div class="card-icon">🤝</div>
-            <h3 class="card-title">Servir com Propósito</h3>
-            <p class="card-text">
-                Descubra seus dons e talentos servindo em nossos ministérios. 
-                Faça a diferença na vida de outras pessoas.
-            </p>
-            <button class="elegant-btn" onclick="openModal('teamModal')">Junte-se ao Time</button>
-        </div>
-        
-        <div class="card">
-            <div class="card-icon">✝️</div>
-            <h3 class="card-title">Compromisso com Cristo</h3>
-            <p class="card-text">
-                Pronto para dar o próximo passo na sua jornada de fé? 
-                O batismo é uma declaração pública do seu compromisso com Jesus.
-            </p>
-            <button class="elegant-btn" onclick="openModal('baptismModal')">Quero Ser Batizado</button>
+        <p class="soap-text">
+            <strong>Escritura</strong> • <strong>Observação</strong> • <strong>Aplicação</strong> • <strong>Oração</strong>
+        </p>
+        <a href="#" class="soap-btn">Baixar Guia SOAP</a>
+    </div>
+</section>
+
+<!-- Get Involved Section -->
+<section class="cta-section">
+    <div class="cta-container">
+        <h2 class="cta-heading">Envolva-se</h2>
+        <div class="cta-grid">
+            <div class="cta-card">
+                <h3>Preencha Seu Cartão de Conexão</h3>
+                <p>Compartilhe suas informações e interesses conosco para que possamos conectá-lo melhor.</p>
+                <a href="#" class="cta-link" onclick="openModal('connectModal'); return false;">Preencher Cartão →</a>
+            </div>
+            <div class="cta-card">
+                <h3>Junte-se a Nós em Oração</h3>
+                <p>Deixe-nos orar com você e por você. Compartilhe seus pedidos de oração conosco.</p>
+                <a href="#" class="cta-link" onclick="openModal('prayerModal'); return false;">Enviar Pedido →</a>
+            </div>
+            <div class="cta-card">
+                <h3>Faça uma Oferta</h3>
+                <p>Participe da missão através da generosidade. Sua contribuição faz a diferença.</p>
+                <a href="<?php echo home_url('/ofertas'); ?>" class="cta-link">Ofertar Agora →</a>
+            </div>
         </div>
     </div>
 </section>
