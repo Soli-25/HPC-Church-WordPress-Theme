@@ -2,7 +2,7 @@
 
 ## ✅ O QUE ESTÁ INCLUÍDO AGORA (100% COMPLETO)
 
-O tema WordPress está **COMPLETO** com TODO o conteúdo do site original:
+O tema WordPress está **COMPLETO** com TODO o conteúdo do site original + **MENUS FUNCIONANDO AUTOMATICAMENTE**:
 
 ### 🎯 Página Inicial (Home)
 - ✅ Hero Section com imagem da igreja
@@ -24,6 +24,10 @@ O tema WordPress está **COMPLETO** com TODO o conteúdo do site original:
 - ✅ `404.php` - Página de erro elegante
 
 ### 🛠️ Funcionalidades
+- ✅ **MENUS AUTOMÁTICOS** - Funcionam SEM configurar no WordPress
+- ✅ **Menu Header** com 8 links (Início, Sobre, Blog, Comunidade, Agenda, Loja, Contato, Ofertas)
+- ✅ **Menu Footer** com mesmos links
+- ✅ **Menu Mobile** funcional (hamburger menu em telas pequenas)
 - ✅ Custom Post Type: Eventos
 - ✅ 4 formulários AJAX funcionais
 - ✅ Integração WooCommerce
@@ -37,13 +41,17 @@ O tema WordPress está **COMPLETO** com TODO o conteúdo do site original:
 
 ### Passo 1: Baixar o Tema
 
-**Opção A: Download Direto (RECOMENDADO)**
-1. Clique aqui: [**hpc-church-theme-COMPLETO.zip**](https://github.com/Soli-25/HPC-Church-WordPress-Theme/raw/main/hpc-church-theme-COMPLETO.zip)
+**Opção A: Download Direto (RECOMENDADO - Versão 2.0 com Menus)**
+1. Clique aqui: [**hpc-church-theme-v2.zip**](https://github.com/Soli-25/HPC-Church-WordPress-Theme/raw/main/hpc-church-theme-v2.zip)
 2. O arquivo ZIP será baixado automaticamente
 
-**Opção B: Baixar do GitHub**
+**Opção B: Versão Anterior (v1.0 sem menus automáticos)**
+1. Clique aqui: [**hpc-church-theme-COMPLETO.zip**](https://github.com/Soli-25/HPC-Church-WordPress-Theme/raw/main/hpc-church-theme-COMPLETO.zip)
+2. Precisa configurar menus manualmente
+
+**Opção C: Baixar do GitHub**
 1. Vá para: https://github.com/Soli-25/HPC-Church-WordPress-Theme
-2. Clique no arquivo: `hpc-church-theme-COMPLETO.zip`
+2. Clique no arquivo: `hpc-church-theme-v2.zip`
 3. Clique em "Download" ou botão de download
 
 ### Passo 2: Instalar no WordPress
@@ -59,7 +67,7 @@ O tema WordPress está **COMPLETO** com TODO o conteúdo do site original:
 
 3. **Faça Upload:**
    - Clique em **"Escolher arquivo"**
-   - Selecione: `hpc-church-theme-COMPLETO.zip`
+   - Selecione: `hpc-church-theme-v2.zip`
    - Clique em **"Instalar Agora"**
 
 4. **Ative o Tema:**
@@ -74,8 +82,14 @@ O tema WordPress está **COMPLETO** com TODO o conteúdo do site original:
 ### ✅ Página Inicial Completa
 Acesse `seusite.com` e você verá:
 
-1. **Hero elegante** com foto da igreja
-2. **7 seções de conteúdo completas:**
+1. **MENU DE NAVEGAÇÃO COMPLETO** funcionando automaticamente 🎉
+   - Header: Início, Sobre, Blog, Comunidade, Agenda, Loja, Contato, Ofertas
+   - Botão especial: "Ofertar Agora"
+   - Menu mobile (hamburger) para celular/tablet
+
+2. **Hero elegante** com foto da igreja
+
+3. **7 seções de conteúdo completas:**
    - Descubra a HPC Church
    - Descubra o Dream Team
    - Batismos + Versículo Bíblico
@@ -83,8 +97,16 @@ Acesse `seusite.com` e você verá:
    - Conecte-se Conosco
    - Leia a Bíblia Conosco (SOAP)
    - Envolva-se (3 cards)
-3. **Últimos posts do blog** (se você criar posts)
-4. **Modais funcionais** ao clicar nos botões
+
+4. **Rodapé completo** com:
+   - Links rápidos (menu footer)
+   - Informações de contato
+   - Horários de culto
+   - Ícones flutuantes (WhatsApp + Instagram)
+
+5. **Últimos posts do blog** (se você criar posts)
+
+6. **Modais funcionais** ao clicar nos botões
 
 ### 🔘 Modais Funcionais
 Clique nos botões para abrir os modais:
@@ -211,14 +233,23 @@ Após instalação, você terá:
 ## 🔗 LINKS ÚTEIS
 
 - **Repositório GitHub:** https://github.com/Soli-25/HPC-Church-WordPress-Theme
-- **Download Direto:** https://github.com/Soli-25/HPC-Church-WordPress-Theme/raw/main/hpc-church-theme-COMPLETO.zip
+- **Download Direto (v2.0):** https://github.com/Soli-25/HPC-Church-WordPress-Theme/raw/main/hpc-church-theme-v2.zip
 - **Site Original:** https://hpc-church.pages.dev
 
 ---
 
 ## ✨ CHANGELOG
 
-### Versão 1.1.0 (2025-01-29) - COMPLETO
+### Versão 2.0.0 (2025-01-29) - MENUS AUTOMÁTICOS 🎉
+- ✅ **MENUS HARDCODED** - Funcionam SEM configurar no WordPress
+- ✅ Menu Header com 8 links funcionais
+- ✅ Menu Footer com links rápidos
+- ✅ Menu Mobile responsivo (hamburger)
+- ✅ Fallback inteligente (usa menu customizado se existir, senão usa padrão)
+- ✅ JavaScript para toggle do menu mobile
+- ✅ Estilos completos para desktop + mobile
+
+### Versão 1.1.0 (2025-01-29) - CONTEÚDO COMPLETO
 - ✅ Adicionado TODO o conteúdo do site original
 - ✅ Seção "Descubra a HPC Church" com badge e datas
 - ✅ Seção "Batismos" com versículo bíblico (Atos 2:38)
@@ -245,7 +276,7 @@ Após instalação, você terá:
 
 ## 🚀 COMECE AGORA!
 
-1. **[BAIXE O TEMA](https://github.com/Soli-25/HPC-Church-WordPress-Theme/raw/main/hpc-church-theme-COMPLETO.zip)**
+1. **[BAIXE O TEMA v2.0](https://github.com/Soli-25/HPC-Church-WordPress-Theme/raw/main/hpc-church-theme-v2.zip)**
 2. **Instale no WordPress** (Aparência → Temas → Adicionar Novo → Upload)
 3. **Ative o tema**
 4. **Acesse seu site** e veja TUDO funcionando! 🎉
