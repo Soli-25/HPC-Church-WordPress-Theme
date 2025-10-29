@@ -62,6 +62,24 @@ Design ultra-elegante em preto e branco com tipografia sofisticada (Cormorant Ga
 2. Faça upload da pasta para: `/wp-content/themes/`
 3. Ative no WordPress: `Aparência` → `Temas`
 
+## 📚 IMPORTANTE: Guia de Conteúdo
+
+**⚠️ O tema está instalado, mas precisa de conteúdo!**
+
+WordPress é um CMS (Content Management System) - o tema fornece o DESIGN, você adiciona o CONTEÚDO.
+
+👉 **[LEIA O GUIA COMPLETO: Como Adicionar Conteúdo ao WordPress](GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md)**
+
+Este guia explica passo a passo como:
+- ✅ Criar páginas (Sobre, Comunidade, Agenda, etc.)
+- ✅ Adicionar posts no blog
+- ✅ Criar eventos
+- ✅ Configurar menus
+- ✅ Instalar WooCommerce e adicionar produtos
+- ✅ Personalizar informações da igreja
+
+**Sem seguir este guia, o site ficará vazio!**
+
 ## ⚙️ Configuração
 
 ### 1️⃣ Informações da Igreja
