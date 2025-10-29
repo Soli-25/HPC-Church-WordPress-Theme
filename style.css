@@ -1,0 +1,153 @@
+/*
+Theme Name: HPC Church
+Theme URI: https://github.com/Soli-25/HPC-Church
+Author: HPC Church Team
+Author URI: https://hpcchurch.com
+Description: Tema elegante e minimalista para HPC Church com design preto e branco. Inclui WooCommerce, blog, calendário de eventos e sistema de modais.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hpc-church
+Tags: church, elegant, minimalist, black-white, woocommerce, blog, events
+*/
+
+/* ==========================================================================
+   RESET & BASE STYLES
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+nav {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.nav-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+/* ==========================================================================
+   WORDPRESS CLASSES
+   ========================================================================== */
+
+.alignleft {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1.5em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.sticky {
+    /* Sticky post styles */
+}
+
+.bypostauthor {
+    /* Post author styles */
+}
+
+/* ==========================================================================
+   RESPONSIVO
+   ========================================================================== */
+
+@media (max-width: 968px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .nav-content {
+        padding: 20px;
+    }
+}

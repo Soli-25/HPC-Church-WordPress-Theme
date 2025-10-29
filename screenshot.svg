@@ -1,0 +1,58 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#ffffff"/>
+  
+  <!-- Header/Navigation -->
+  <rect width="1200" height="100" fill="#000000"/>
+  <text x="60" y="65" font-family="Cormorant Garamond, serif" font-size="36" font-weight="600" fill="#ffffff" letter-spacing="2">HPC CHURCH</text>
+  
+  <!-- Navigation Menu -->
+  <text x="850" y="62" font-family="Montserrat, sans-serif" font-size="14" fill="#ffffff" letter-spacing="1" text-transform="uppercase">INÍCIO</text>
+  <text x="930" y="62" font-family="Montserrat, sans-serif" font-size="14" fill="#ffffff" letter-spacing="1" text-transform="uppercase">SOBRE</text>
+  <text x="1005" y="62" font-family="Montserrat, sans-serif" font-size="14" fill="#ffffff" letter-spacing="1" text-transform="uppercase">BLOG</text>
+  <text x="1080" y="62" font-family="Montserrat, sans-serif" font-size="14" fill="#ffffff" letter-spacing="1" text-transform="uppercase">LOJA</text>
+  
+  <!-- Hero Section -->
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  <rect y="100" width="1200" height="400" fill="url(#heroGrad)"/>
+  
+  <!-- Hero Text -->
+  <text x="600" y="250" font-family="Cormorant Garamond, serif" font-size="72" font-weight="300" fill="#ffffff" text-anchor="middle" letter-spacing="4">Dê Seu Próximo Passo</text>
+  <text x="600" y="310" font-family="Montserrat, sans-serif" font-size="22" font-weight="300" fill="#ffffff" text-anchor="middle" letter-spacing="2" opacity="0.95">Descubra Seu Propósito • Cresça na Fé • Faça a Diferença</text>
+  
+  <!-- CTA Button -->
+  <rect x="475" y="350" width="250" height="55" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+  <text x="600" y="383" font-family="Montserrat, sans-serif" font-size="16" font-weight="600" fill="#000000" text-anchor="middle" letter-spacing="2">EXPLORE OPORTUNIDADES</text>
+  
+  <!-- Cards Section -->
+  <text x="600" y="580" font-family="Cormorant Garamond, serif" font-size="48" font-weight="300" fill="#000000" text-anchor="middle" letter-spacing="2">Próximos Passos</text>
+  
+  <!-- Card 1 -->
+  <rect x="60" y="640" width="340" height="220" fill="#ffffff" stroke="#e8e8e8" stroke-width="2"/>
+  <text x="230" y="695" font-size="60" text-anchor="middle">🙏</text>
+  <text x="230" y="740" font-family="Cormorant Garamond, serif" font-size="28" font-weight="500" fill="#000000" text-anchor="middle">Primeiro Passo</text>
+  <rect x="130" y="770" width="200" height="45" fill="#000000"/>
+  <text x="230" y="798" font-family="Montserrat, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">INSCREVA-SE AGORA</text>
+  
+  <!-- Card 2 -->
+  <rect x="430" y="640" width="340" height="220" fill="#ffffff" stroke="#e8e8e8" stroke-width="2"/>
+  <text x="600" y="695" font-size="60" text-anchor="middle">🤝</text>
+  <text x="600" y="740" font-family="Cormorant Garamond, serif" font-size="28" font-weight="500" fill="#000000" text-anchor="middle">Servir com Propósito</text>
+  <rect x="500" y="770" width="200" height="45" fill="#000000"/>
+  <text x="600" y="798" font-family="Montserrat, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">JUNTE-SE AO TIME</text>
+  
+  <!-- Card 3 -->
+  <rect x="800" y="640" width="340" height="220" fill="#ffffff" stroke="#e8e8e8" stroke-width="2"/>
+  <text x="970" y="695" font-size="60" text-anchor="middle">✝️</text>
+  <text x="970" y="740" font-family="Cormorant Garamond, serif" font-size="28" font-weight="500" fill="#000000" text-anchor="middle">Compromisso com Cristo</text>
+  <rect x="870" y="770" width="200" height="45" fill="#000000"/>
+  <text x="970" y="798" font-family="Montserrat, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">QUERO SER BATIZADO</text>
+  
+  <!-- Theme Info -->
+  <text x="600" y="885" font-family="Montserrat, sans-serif" font-size="12" fill="#999999" text-anchor="middle" letter-spacing="1">HPC Church Theme - Elegant Black & White Design</text>
+</svg>
