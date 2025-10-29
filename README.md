@@ -21,10 +21,13 @@ Design ultra-elegante em preto e branco com tipografia sofisticada (Cormorant Ga
 - ✅ **AJAX Forms** - Envio de formulários sem recarregar página
 
 ### 📄 Templates Incluídos
-- `index.php` - Home page com hero e próximos passos
+- `index.php` - Home page com 7 seções completas
 - `page.php` - Template genérico para páginas
 - `single.php` - Posts individuais do blog
 - `archive.php` - Listagem do blog com destaque para Pastor
+- `page-sobre.php` - ⭐ Sobre a igreja (história, missão, valores, liderança)
+- `page-contato.php` - ⭐ Contato completo (formulário, mapa, horários)
+- `page-loja.php` - ⭐ Loja (produtos exemplo + integração WooCommerce)
 - `page-comunidade.php` - Eventos, grupos e ações sociais
 - `page-agenda.php` - Calendário interativo com inscrições
 - `404.php` - Página de erro elegante
@@ -70,6 +73,7 @@ Design ultra-elegante em preto e branco com tipografia sofisticada (Cormorant Ga
 
 - ✅ **Menus automaticamente configurados** (Header + Footer + Mobile)
 - ✅ **Página inicial completa** com 7 seções de conteúdo
+- ✅ **6 páginas com conteúdo rico** (Sobre, Contato, Loja, Comunidade, Agenda, Blog)
 - ✅ **4 modais funcionais** (Inscrição, Voluntário, Batismo, Oração)
 - ✅ **Design elegante** preto e branco
 - ✅ **Navegação responsiva** (funciona em celular, tablet, desktop)
@@ -284,7 +288,19 @@ hpc-church-theme/
 
 ## 📝 Changelog
 
-### Versão 1.0.0 (2025-01-29)
+### Versão 3.0.0 (2025-01-29) - TODAS AS PÁGINAS ⭐
+- ✨ **Página Sobre** - História, missão, valores, estatísticas, liderança
+- ✨ **Página Contato** - Formulário funcional, mapa, horários, informações
+- ✨ **Página Loja** - 6 produtos exemplo + integração WooCommerce automática
+- ✅ Todas as páginas com conteúdo rico e design elegante
+- ✅ Site 100% completo e funcional
+
+### Versão 2.0.0 (2025-01-29) - MENUS AUTOMÁTICOS
+- ✅ Menus hardcoded (Header + Footer + Mobile)
+- ✅ Funcionam SEM configurar WordPress
+- ✅ Fallback inteligente
+
+### Versão 1.0.0 (2025-01-29) - LANÇAMENTO INICIAL
 - ✨ Lançamento inicial
 - ✅ Design completo em preto e branco
 - ✅ Custom Post Type: Eventos
