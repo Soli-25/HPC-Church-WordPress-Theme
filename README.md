@@ -1,162 +1,291 @@
-# HPC Church WordPress Theme
+# HPC Church - Tema WordPress
 
-Tema elegante e minimalista para HPC Church com design preto e branco.
+![Versão](https://img.shields.io/badge/versão-1.0.0-blue)
+![WordPress](https://img.shields.io/badge/WordPress-5.0+-green)
+![Licença](https://img.shields.io/badge/licença-GPL--2.0-orange)
 
-## 📋 Características
+Tema WordPress elegante e minimalista para igrejas, com design em preto e branco, integração WooCommerce e funcionalidades completas.
 
-- ✅ Design preto e branco elegante
-- ✅ 100% responsivo (mobile-friendly)
-- ✅ Integração WooCommerce para loja
-- ✅ Custom Post Type para eventos
-- ✅ Sistema de modais para formulários
-- ✅ Blog do Pastor Otavio
-- ✅ Calendário de eventos
-- ✅ Totalmente em Português BR
-- ✅ SEO otimizado
-- ✅ Performance otimizada
+## 🎨 Preview
 
-## 🚀 Instalação
+Design ultra-elegante em preto e branco com tipografia sofisticada (Cormorant Garamond + Montserrat).
 
-### Passo 1: Upload do Tema
+## ✨ Funcionalidades
 
-1. Faça login no WordPress Admin
-2. Vá em **Aparência → Temas**
-3. Clique em **Adicionar novo**
-4. Clique em **Enviar tema**
-5. Escolha o arquivo `hpc-church-theme.zip`
-6. Clique em **Instalar agora**
-7. Clique em **Ativar**
+### 🎯 Core Features
+- ✅ **Design Responsivo** - Mobile-first, funciona perfeitamente em todos os dispositivos
+- ✅ **WordPress Customizer** - Personalize cores, logo e informações da igreja
+- ✅ **Custom Post Type: Eventos** - Sistema completo de gestão de eventos
+- ✅ **WooCommerce Ready** - Loja online integrada
+- ✅ **4 Modais Funcionais** - Inscrição, Voluntário, Batismo, Pedido de Oração
+- ✅ **AJAX Forms** - Envio de formulários sem recarregar página
 
-### Passo 2: Instalar Plugins Recomendados
+### 📄 Templates Incluídos
+- `index.php` - Home page com hero e próximos passos
+- `page.php` - Template genérico para páginas
+- `single.php` - Posts individuais do blog
+- `archive.php` - Listagem do blog com destaque para Pastor
+- `page-comunidade.php` - Eventos, grupos e ações sociais
+- `page-agenda.php` - Calendário interativo com inscrições
+- `404.php` - Página de erro elegante
+- `woocommerce.php` - Override da loja
 
-**Obrigatórios:**
-- WooCommerce (para loja)
-- Contact Form 7 (para formulários)
+### 🎨 Design System
+- **Cores:** Preto (#000), Branco (#fff), Cinzas
+- **Fontes:** Cormorant Garamond (títulos) + Montserrat (corpo)
+- **Estilo:** Minimalista, elegante, sofisticado
 
-**Recomendados:**
-- Yoast SEO (otimização)
-- WP Super Cache (performance)
-- Wordfence Security (segurança)
+## 📦 Instalação
 
-### Passo 3: Configurar Menus
+### Método 1: Upload via WordPress (Recomendado)
 
-1. Vá em **Aparência → Menus**
-2. Crie um novo menu: "Menu Principal"
-3. Adicione as páginas desejadas
-4. Marque a localização: "Menu Principal"
-5. Salve o menu
+1. **Baixe o tema:**
+   - Clique em [**Download ZIP**](https://github.com/Soli-25/HPC-Church-WordPress-Theme/archive/refs/heads/main.zip)
+   - OU clone: `git clone https://github.com/Soli-25/HPC-Church-WordPress-Theme.git`
 
-### Passo 4: Customizar
+2. **Empacote o tema** (se clonou via Git):
+   ```bash
+   cd HPC-Church-WordPress-Theme
+   zip -r hpc-church-theme.zip . -x "*.git*" "*.DS_Store"
+   ```
 
-1. Vá em **Aparência → Customizar**
-2. Configure em **Informações da Igreja**:
-   - Endereço
-   - Telefone
-   - Email
-   - Instagram
+3. **Instale no WordPress:**
+   - Acesse: `wp-admin` → `Aparência` → `Temas` → `Adicionar Novo`
+   - Clique: `Fazer Upload do Tema`
+   - Escolha: `hpc-church-theme.zip`
+   - Clique: `Instalar Agora`
+   - Clique: `Ativar`
 
-## 📄 Páginas Recomendadas
+### Método 2: Upload via FTP
 
-Crie estas páginas para o site completo:
+1. Baixe e extraia o tema
+2. Faça upload da pasta para: `/wp-content/themes/`
+3. Ative no WordPress: `Aparência` → `Temas`
 
-1. **Home** (Página inicial)
-2. **Sobre** (História da igreja)
-3. **Blog** (Posts automático)
-4. **Comunidade** (Eventos e grupos)
-5. **Loja** (WooCommerce automático)
-6. **Contato** (Formulário)
-7. **Ofertas** (Sistema de dízimos)
+## ⚙️ Configuração
 
-## 🎨 Customização
+### 1️⃣ Informações da Igreja
 
-### Cores
+Vá em: `Aparência` → `Personalizar` → `Informações da Igreja`
 
-O tema usa paleta preto e branco:
-- Primária: #000000
-- Secundária: #FFFFFF
-- Texto: #1a1a1a
+Configure:
+- Endereço
+- Telefone
+- E-mail
+- Instagram
 
-### Fontes
+### 2️⃣ Menus de Navegação
 
-- **Títulos**: Cormorant Garamond (serif)
-- **Texto**: Montserrat (sans-serif)
+Vá em: `Aparência` → `Menus`
 
-### Logo
+Crie um menu com os itens:
+- Início
+- Sobre
+- Blog
+- Comunidade
+- Agenda
+- Loja
+- Contato
+- Ofertas
 
-1. Vá em **Aparência → Customizar → Identidade do site**
-2. Faça upload do seu logo
-3. Dimensões recomendadas: 400x100px
+Atribua ao local: **Menu Principal**
+
+### 3️⃣ Criar Páginas
+
+Crie as seguintes páginas:
+
+**Página: Comunidade**
+- Modelo: `Comunidade`
+
+**Página: Agenda**
+- Modelo: `Agenda`
+
+### 4️⃣ Configurar Permalinks
+
+Vá em: `Configurações` → `Links Permanentes`
+Selecione: **Nome do Post**
+
+### 5️⃣ Definir Homepage
+
+Vá em: `Configurações` → `Leitura`
+- Página inicial: `Início` (ou deixe padrão)
+- Página de posts: `Blog`
+
+## 🔌 Plugins Recomendados
+
+### Essenciais
+- **WooCommerce** - Para a loja online
+- **Contact Form 7** - Formulários adicionais
+- **Yoast SEO** - Otimização para buscadores
+
+### Opcionais
+- **Wordfence Security** - Segurança
+- **UpdraftPlus** - Backup automático
+- **WP Super Cache** - Performance
+- **Smush** - Otimização de imagens
+
+## 📅 Custom Post Type: Eventos
+
+### Criar um Novo Evento
+
+1. Vá em: `Eventos` → `Adicionar Novo`
+2. Preencha:
+   - **Título:** Nome do evento
+   - **Conteúdo:** Descrição detalhada
+   - **Imagem Destacada:** Foto do evento
+3. **Metadados do Evento:**
+   - **Data:** YYYY-MM-DD
+   - **Horário:** HH:MM
+   - **Local:** Nome do local
+   - **Tipo:** Culto, Grupo, Ação Social, Especial
+4. Clique em **Publicar**
 
 ## 🛒 Configurar Loja (WooCommerce)
 
-### Após instalar WooCommerce:
+### Adicionar Produtos
 
-1. Complete o wizard de configuração
-2. Configure formas de pagamento:
-   - PayPal
-   - Stripe
-   - Transferência bancária
-3. Configure envio/retirada na igreja
-4. Adicione os 9 produtos conforme guia
-
-## 📅 Adicionar Eventos
-
-1. No WordPress Admin, vá em **Eventos → Adicionar novo**
-2. Preencha:
-   - Título do evento
+1. Vá em: `Produtos` → `Adicionar Novo`
+2. Configure:
+   - Nome do produto
    - Descrição
-   - Data
-   - Horário
-   - Local
-   - Tipo (Culto, Grupo, Ação Social, Especial)
-3. Adicione uma imagem destacada
-4. Publique
+   - Preço
+   - Imagem
+   - Categorias
+3. Publique
 
-## 📝 Adicionar Posts no Blog
+### Produtos Sugeridos
+- Livros do pastor
+- Bíblias de estudo
+- Camisetas
+- Canecas
+- Adesivos
 
-1. Vá em **Posts → Adicionar novo**
-2. Escreva o título
-3. Adicione o conteúdo
-4. Escolha categoria
-5. Adicione imagem destacada
-6. Publique
+## 💬 Sistema de Modais
 
-## 🔧 Configurações Importantes
+O tema inclui 4 modais funcionais que podem ser acionados via JavaScript:
 
-### Links Permanentes
+```javascript
+// Abrir modal de inscrição
+openModal('connectModal');
 
-1. **Configurações → Links Permanentes**
-2. Escolha: "Nome do post"
-3. Salve
+// Abrir modal de voluntariado
+openModal('teamModal');
 
-### Página Inicial
+// Abrir modal de batismo
+openModal('baptismModal');
 
-1. **Configurações → Leitura**
-2. Marque: "Uma página estática"
-3. Página inicial: Home
-4. Página de posts: Blog
-5. Salve
+// Abrir modal de oração
+openModal('prayerModal');
+```
 
-## 🆘 Suporte
+Os formulários enviam dados via AJAX para o e-mail configurado.
 
-Para problemas ou dúvidas:
+## 📧 Configurar E-mails
 
-1. Consulte a documentação completa: `GUIA-WORDPRESS-COMPLETO.md`
-2. Verifique o arquivo: `GUIA-GERENCIAR-LOJA.md`
-3. GitHub: https://github.com/Soli-25/HPC-Church
+Por padrão, os formulários enviam para `contato@hpcchurch.com`.
 
-## 📜 Licença
+Para alterar, edite `functions.php` na função `hpc_church_submit_form()`.
 
-GNU General Public License v2 or later
+### Configurar SMTP (Recomendado)
 
-## ✨ Créditos
+1. Instale: **WP Mail SMTP**
+2. Configure com:
+   - Gmail
+   - Outlook
+   - SendGrid
+   - Mailgun
 
-- Desenvolvido para: HPC Church
-- Design: Minimalista preto e branco
-- Fontes: Google Fonts (Cormorant Garamond, Montserrat)
-- Imagens: Unsplash
+## 🎨 Personalização
+
+### Alterar Cores
+
+Edite `style.css` e busque por:
+- `#000000` - Preto principal
+- `#ffffff` - Branco
+- `#fafafa` - Cinza claro
+
+### Alterar Fontes
+
+Edite `functions.php` na função `hpc_church_scripts()`:
+
+```php
+wp_enqueue_style( 'google-fonts', 
+    'https://fonts.googleapis.com/css2?family=SuaFonte:wght@300;400;700&display=swap'
+);
+```
+
+### Adicionar CSS Customizado
+
+Use: `Aparência` → `Personalizar` → `CSS Adicional`
+
+## 🌐 Estrutura de Arquivos
+
+```
+hpc-church-theme/
+├── style.css              # Metadados + CSS principal
+├── functions.php          # Funcionalidades PHP
+├── header.php             # Cabeçalho e navegação
+├── footer.php             # Rodapé
+├── index.php              # Home page
+├── page.php               # Páginas genéricas
+├── single.php             # Posts do blog
+├── archive.php            # Listagem do blog
+├── 404.php                # Página de erro
+├── page-comunidade.php    # Template Comunidade
+├── page-agenda.php        # Template Agenda
+├── woocommerce.php        # Override WooCommerce
+├── screenshot.svg         # Preview do tema
+├── assets/
+│   └── js/
+│       └── main.js        # JavaScript principal
+└── template-parts/
+    └── modals.php         # Modais funcionais
+```
+
+## 🆘 Problemas Comuns
+
+### Tema não aparece na lista
+**Solução:** Verifique se o `style.css` está na raiz do tema.
+
+### Páginas mostram erro 404
+**Solução:** Vá em `Configurações` → `Links Permanentes` → `Salvar`.
+
+### Formulários não enviam
+**Solução:** Instale o plugin **WP Mail SMTP** e configure.
+
+### Imagens não aparecem
+**Solução:** Regenere miniaturas com o plugin **Regenerate Thumbnails**.
+
+## 📞 Suporte
+
+- **Documentação WordPress:** https://wordpress.org/support/
+- **Documentação WooCommerce:** https://woocommerce.com/documentation/
+- **Issues:** https://github.com/Soli-25/HPC-Church-WordPress-Theme/issues
+
+## 📝 Changelog
+
+### Versão 1.0.0 (2025-01-29)
+- ✨ Lançamento inicial
+- ✅ Design completo em preto e branco
+- ✅ Custom Post Type: Eventos
+- ✅ 4 modais funcionais
+- ✅ Integração WooCommerce
+- ✅ Templates customizados
+- ✅ WordPress Customizer
+- ✅ Responsive design
+
+## 📄 Licença
+
+GPL-2.0 License - Livre para uso pessoal e comercial.
+
+## 👨‍💻 Autor
+
+**HPC Church Team**  
+📧 contato@hpcchurch.com  
+🌐 https://github.com/Soli-25
 
 ---
 
-**Versão:** 1.0.0  
-**Última atualização:** Outubro 2025
+**Desenvolvido com ❤️ para a comunidade HPC Church em Marietta, Atlanta**
+
+*"Conectando pessoas com Deus e umas com as outras"*
