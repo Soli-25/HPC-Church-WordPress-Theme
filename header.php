@@ -22,15 +22,29 @@
         
         <div class="nav-links">
             <?php
-            wp_nav_menu( array(
-                'theme_location' => 'primary',
-                'container'      => false,
-                'menu_class'     => 'nav-links',
-                'fallback_cb'    => false,
-                'items_wrap'     => '%3$s',
-                'link_before'    => '<span>',
-                'link_after'     => '</span>',
-            ) );
+            // Check if menu is set, otherwise use default menu
+            if ( has_nav_menu( 'primary' ) ) {
+                wp_nav_menu( array(
+                    'theme_location' => 'primary',
+                    'container'      => false,
+                    'menu_class'     => 'nav-links',
+                    'fallback_cb'    => false,
+                    'items_wrap'     => '%3$s',
+                    'link_before'    => '<span>',
+                    'link_after'     => '</span>',
+                ) );
+            } else {
+                // Default menu (works without WordPress menu configuration)
+                ?>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="nav-link">Início</a>
+                <a href="<?php echo esc_url( home_url( '/sobre' ) ); ?>" class="nav-link">Sobre</a>
+                <a href="<?php echo esc_url( home_url( '/blog' ) ); ?>" class="nav-link">Blog</a>
+                <a href="<?php echo esc_url( home_url( '/comunidade' ) ); ?>" class="nav-link">Comunidade</a>
+                <a href="<?php echo esc_url( home_url( '/agenda' ) ); ?>" class="nav-link">Agenda</a>
+                <a href="<?php echo esc_url( home_url( '/loja' ) ); ?>" class="nav-link">Loja</a>
+                <a href="<?php echo esc_url( home_url( '/contato' ) ); ?>" class="nav-link">Contato</a>
+                <?php
+            }
             ?>
             <a href="<?php echo esc_url( home_url( '/ofertas' ) ); ?>" class="give-btn nav-link">Ofertar Agora</a>
         </div>
@@ -41,6 +55,33 @@
             <span></span>
             <span></span>
         </button>
+    </div>
+    
+    <!-- Mobile Navigation (appears on small screens) -->
+    <div class="mobile-nav-links">
+        <?php
+        // Use same menu logic for mobile
+        if ( has_nav_menu( 'primary' ) ) {
+            wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'container'      => false,
+                'menu_class'     => '',
+                'fallback_cb'    => false,
+                'items_wrap'     => '%3$s',
+            ) );
+        } else {
+            ?>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a>
+            <a href="<?php echo esc_url( home_url( '/sobre' ) ); ?>">Sobre</a>
+            <a href="<?php echo esc_url( home_url( '/blog' ) ); ?>">Blog</a>
+            <a href="<?php echo esc_url( home_url( '/comunidade' ) ); ?>">Comunidade</a>
+            <a href="<?php echo esc_url( home_url( '/agenda' ) ); ?>">Agenda</a>
+            <a href="<?php echo esc_url( home_url( '/loja' ) ); ?>">Loja</a>
+            <a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">Contato</a>
+            <?php
+        }
+        ?>
+        <a href="<?php echo esc_url( home_url( '/ofertas' ) ); ?>" class="give-btn">Ofertar Agora</a>
     </div>
 </nav>
 
@@ -149,6 +190,49 @@
         transition: all 0.3s ease;
     }
 
+    /* Mobile Menu */
+    .mobile-nav-links {
+        display: none;
+        position: fixed;
+        top: 88px;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+        z-index: 999;
+    }
+
+    .mobile-nav-links.active {
+        display: flex;
+    }
+
+    .mobile-nav-links a {
+        color: #333;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 15px;
+        border-bottom: 1px solid #f0f0f0;
+        transition: all 0.3s;
+    }
+
+    .mobile-nav-links a:hover {
+        background: #f9f9f9;
+        color: #000;
+    }
+
+    .mobile-nav-links .give-btn {
+        background: #000;
+        color: white !important;
+        text-align: center;
+        border: none;
+    }
+
     @media (max-width: 968px) {
         .nav-links {
             display: none;
@@ -163,3 +247,17 @@
         }
     }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.mobile-menu-toggle');
+    const mobileNav = document.querySelector('.mobile-nav-links');
+    
+    if (toggle && mobileNav) {
+        toggle.addEventListener('click', function() {
+            mobileNav.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    }
+});
+</script>

@@ -15,12 +15,28 @@
         <div>
             <h4 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 25px; font-weight: 600;">Links Rápidos</h4>
             <?php
-            wp_nav_menu( array(
-                'theme_location' => 'footer',
-                'container'      => 'ul',
-                'menu_class'     => 'footer-menu',
-                'fallback_cb'    => false,
-            ) );
+            if ( has_nav_menu( 'footer' ) ) {
+                wp_nav_menu( array(
+                    'theme_location' => 'footer',
+                    'container'      => 'ul',
+                    'menu_class'     => 'footer-menu',
+                    'fallback_cb'    => false,
+                ) );
+            } else {
+                // Default footer menu
+                ?>
+                <ul class="footer-menu">
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/sobre' ) ); ?>">Sobre</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/blog' ) ); ?>">Blog</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/comunidade' ) ); ?>">Comunidade</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/agenda' ) ); ?>">Agenda</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/loja' ) ); ?>">Loja</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">Contato</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/ofertas' ) ); ?>">Ofertas</a></li>
+                </ul>
+                <?php
+            }
             ?>
         </div>
         
