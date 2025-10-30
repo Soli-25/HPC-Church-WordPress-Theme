@@ -82,7 +82,8 @@ Design ultra-elegante em preto e branco com tipografia sofisticada (Cormorant Ga
 ### 📖 Guias Opcionais (para adicionar mais conteúdo):
 
 👉 **[INSTALACAO-RAPIDA.md](INSTALACAO-RAPIDA.md)** - Guia rápido de instalação  
-👉 **[GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md](GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md)** - Como adicionar páginas, posts, eventos
+👉 **[GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md](GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md)** - Como adicionar páginas, posts, eventos  
+👉 **[GUIA-CATEGORIAS-NO-MENU.md](GUIA-CATEGORIAS-NO-MENU.md)** - ⭐ Como criar blogs separados com categorias
 
 **O site já está funcional! Esses guias são opcionais para expandir o conteúdo.**
 
