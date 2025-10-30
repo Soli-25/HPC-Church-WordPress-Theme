@@ -82,9 +82,11 @@ Design ultra-elegante em preto e branco com tipografia sofisticada (Cormorant Ga
 ### 📖 Guias Opcionais (para adicionar mais conteúdo):
 
 👉 **[INSTALACAO-RAPIDA.md](INSTALACAO-RAPIDA.md)** - Guia rápido de instalação  
-👉 **[GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md](GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md)** - Como adicionar páginas, posts, eventos  
-👉 **[GUIA-CATEGORIAS-NO-MENU.md](GUIA-CATEGORIAS-NO-MENU.md)** - ⭐ Como criar blogs separados com categorias  
-👉 **[SOLUCAO-BLOG-VAZIO.md](SOLUCAO-BLOG-VAZIO.md)** - 🔧 Solução: Posts não aparecem no blog
+👉 **[PASSO-A-PASSO-CONFIGURAR-BLOG.md](PASSO-A-PASSO-CONFIGURAR-BLOG.md)** - 🎯 **COMECE AQUI!** Fazer posts aparecerem no blog  
+👉 **[VIDEO-CONFIGURAR-BLOG.md](VIDEO-CONFIGURAR-BLOG.md)** - 📺 Vídeo em texto: Configurar blog (2 min)  
+👉 **[SOLUCAO-BLOG-VAZIO.md](SOLUCAO-BLOG-VAZIO.md)** - 🔧 Solução detalhada: Blog vazio  
+👉 **[GUIA-CATEGORIAS-NO-MENU.md](GUIA-CATEGORIAS-NO-MENU.md)** - ⭐ Criar blogs separados com categorias  
+👉 **[GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md](GUIA-ADICIONAR-CONTEUDO-WORDPRESS.md)** - Adicionar páginas, posts, eventos
 
 **O site já está funcional! Esses guias são opcionais para expandir o conteúdo.**
 
